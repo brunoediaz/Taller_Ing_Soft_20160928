@@ -24,7 +24,7 @@ public class Calculadora{
 			
 		}
 		else{
-			System.out.println("Uso: Calculadora operador operando1 operando2");
+			System.out.println("Uso: Calculadora operador (+ - * /) operando1 operando2");
 		}
 	}
 }
