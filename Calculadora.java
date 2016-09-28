@@ -14,6 +14,12 @@ public class Calculadora{
 				else if("-".equals(args[0]){
 					System.out.println(op1 - op2);
 				}
+				else if("*".equals(args[0]){
+					System.out.println(op1 * op2);
+				}
+				else if("/".equals(args[0]){
+					System.out.println(op1 / op2);
+				}
 				else{
 					System.out.println(args[0] + ": Operación desconocida.");
 				}
